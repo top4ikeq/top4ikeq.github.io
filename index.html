@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title> <!-- Изменено "Document" на "Документ" для соответствия языку -->
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS файла -->
+</head>
+<body>
+    <div class="container">
+        <div class="paper">
+            <div class="paper-top"></div>
+            <p>
+                <span class="name"></span> <!-- Здесь можно добавить текст, если нужно -->
+            </p>
+            <div class="flex">
+                <span id="message"></span> <!-- Можно добавить текст по умолчанию или оставить пустым -->
+            </div>
+            <div class="paper-bottom"></div>
+        </div>
+        <div class="letter-wrapper">
+            <div class="stamp"></div>
+            <div class="letter-closure" title="Открыть"></div>
+            <div class="ask-name">
+                <p>Ваше имя?</p>
+                <input type="text" pattern="^[А-Яа-яЁёA-Za-z\s]+$" placeholder="Имя" minlength="2" required>
+                <button class="submit-name">OK</button>
+            </div>
+            <div class="letter-body">
+                <div class="left-side"></div>
+                <div class="center"></div>
+                <div class="right-side"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Подключение JS файла -->
+</body>
+</html>
