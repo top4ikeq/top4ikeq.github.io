@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded"), () => {
+document.addEventListener("DOMContentLoaded", () => {
 	let flyingPaperSound =
 			"https://raw.githubusercontent.com/MrGregor228/Notes-For-Piano/master/paper%20sound/flyingpaper.mp3",
 		takingPaperSound =
@@ -55,10 +55,10 @@ document.addEventListener("DOMContentLoaded"), () => {
 	let options = {
 		string: [text1, text2],
 		typeSpeed: 60,
-		showCursor: true
+		showCursor: false
 	};
 
-	let typed;
+	let typed: any
 
 	letterCover.addEventListener("click", () => {
 		letterCover.classList.toggle("opened");
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded"), () => {
 		letterWrapper.classList.add("submitted");
 		paper.classList.toggle("watch");
 		setTimeout(() => {
-			typed = new Typed("#message", options);
+			// typed = new Typed("#message", options);
 		}, 1500);
 		document.body.style.opacity = "0";
 		setTimeout(() => {
@@ -109,4 +109,4 @@ document.addEventListener("DOMContentLoaded"), () => {
 			document.body.style.opacity = "1";
 		}, 1000);
 	});
-};
+});
