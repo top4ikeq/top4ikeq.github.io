@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			"Пускай красочными будут ваши дни, а в вашей жизни случаются самые настоящие и невероятные чудеса. Желаю теплой, солнечной и радостной весны, чтобы вы всегда были согреты ласковым словом, делом и любовью родных людей. Желаю благополучия, чтобы в вашем доме и сердцах всегда был покой, уют и счастье. С 8 Марта!";
 
 	let options = {
-		string: [text1, text2],
+		strings: [text1, text2],
 		typeSpeed: 60,
 		showCursor: false
 	};
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		letterWrapper.classList.add("submitted");
 		paper.classList.toggle("watch");
 		setTimeout(() => {
-			// typed = new Typed("#message", options);
+			typed = new Typed("#message", options);
 		}, 1500);
 		document.body.style.opacity = "0";
 		setTimeout(() => {

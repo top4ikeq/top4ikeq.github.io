@@ -135,7 +135,7 @@ body {
 			user-select: none;
 			pointer-events: none;
 			p {
-				font-family: "Arial", cursive;
+				font-family: "Marck Script", cursive;
 				font-size: 30px;
 				user-select: text;
 				margin-bottom: 10px;
@@ -149,7 +149,7 @@ body {
 				margin-left: auto;
 				border-bottom: 2px solid brown;
 				outline: none;
-				font-family: "Arial", cursive;
+				font-family: "Marck Script", cursive;
 				font-size: 24px;
 				margin-bottom: 10px;
 				text-align: center;
@@ -159,7 +159,7 @@ body {
 			}
 
 			.submit-name {
-				font-family: "Arial", cursive;
+				font-family: "Marck Script", cursive;
 				font-size: 20px;
 				font-weight: bold;
 				color: darken(brown, 10%);
