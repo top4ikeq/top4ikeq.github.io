@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		showCursor: false
 	};
 
-	let typed: any
+	let typed;
 
 	letterCover.addEventListener("click", () => {
 		letterCover.classList.toggle("opened");
