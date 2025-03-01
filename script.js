@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded"), () => {
 	let flyingPaperSound =
 			"https://raw.githubusercontent.com/MrGregor228/Notes-For-Piano/master/paper%20sound/flyingpaper.mp3",
 		takingPaperSound =
@@ -109,4 +109,4 @@ document.addEventListener("DOMContentLoaded", () => {
 			document.body.style.opacity = "1";
 		}, 1000);
 	});
-});
+};
