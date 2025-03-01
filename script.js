@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		showCursor: false
 	};
 
-	let typed: any
+	let typed;
 
 	letterCover.addEventListener("click", () => {
 		letterCover.classList.toggle("opened");
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		letterWrapper.classList.add("submitted");
 		paper.classList.toggle("watch");
 		setTimeout(() => {
-			typed = new typed("#message", options);
+			typed = typed("#message", options);
 		}, 1500);
 		document.body.style.opacity = "0";
 		setTimeout(() => {
