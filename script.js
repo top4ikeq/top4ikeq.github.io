@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let options = {
 		string: [text1, text2],
 		typeSpeed: 60,
-		showCursor: false
+		showCursor: true
 	};
 
 	let typed;
