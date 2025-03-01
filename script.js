@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			"https://raw.githubusercontent.com/MrGregor228/Notes-For-Piano/master/paper%20sound/stampmachine.mp3",
 		carelessWhisper =
 			"https://github.com/MrGregor228/Notes-For-Piano/blob/master/paper%20sound/george-michael_careless-whisper.mp3?raw=true";
-
+<script
+ src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js">
+</script>
 	let firstSound = new Audio();
 	firstSound.volume = [0.2];
 	firstSound.src = flyingPaperSound;
@@ -100,7 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		letterWrapper.classList.add("submitted");
 		paper.classList.toggle("watch");
 		setTimeout(() => {
-			var = require(typed.min.js)
 			typed = new typed("#message", options);
 		}, 1500);
 		document.body.style.opacity = "0";
