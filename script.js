@@ -100,7 +100,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		letterWrapper.classList.add("submitted");
 		paper.classList.toggle("watch");
 		setTimeout(() => {
-			typed = typed("#message", options);
+			var = require(typed.min.js)
+			typed = new typed("#message", options);
 		}, 1500);
 		document.body.style.opacity = "0";
 		setTimeout(() => {
